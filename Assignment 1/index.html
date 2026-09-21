@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Section : Web Development Lab1 | Project: Personal Portfolio| Page : Home -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1| Personal Portfolio</title>
+</head>
+<body>
+    <a href="#main_content">Skip to main content</a>
+    
+    <!-- Hero-section -->
+    <header>
+        <h1>Priyanshi</h1>
+        <p>First Year Student| Aspiring developer</p>
+        <p>Hello, I am a web development student. This is my Personal Portfolio Website</p>
+    </header>
+
+    <!-- navingation links -->
+    <nav>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- main content -->
+    <main id="main_content">
+
+        <!-- About me section -->
+    <section id="About">
+        <h2> About Me</h2>
+        <img src="images/profile.png" alt="My profile picture" height="200">
+        <p>I am a first-year student currently learning programming and web development.I have been working with Python and learning HTML and CSS as part of my development journey.</p>
+        <p>I am currently working on improving my programming fundamnetals and developing skills</p>
+     <!-- Education -->
+    <h3>Education</h3>
+    <ul>
+        <li>Class 10th: Shree Tyagi Modren Public School</li>
+        <li>Class 12th: KCM World School</li>
+    </ul>
+     </section>
+
+    <!-- Projects section -->
+    <section id="Projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li>
+                <h3>Portfolio website</h3>
+                <p>A personal one page website to showcase your bio, skills and contact details</p>
+            </li>
+            <li>
+                <h3>College Timetable</h3>
+                <p>A college timetable webpage created using HTML tables and CSS styling to organise classes.</p>
+            </li>
+            <li>
+                <h3>Recipe Website</h3>
+                <p>A simple recipe creative webpage created using HTML and CSS, showcasing images, ingredients and origin story.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Skills section -->
+     <section id="Skills">
+        <h2>Technical Skills</h2>
+        <table border="4" cellspacing="5" cell padding="5">
+            <caption>Skill and proficinecy levels</caption>
+            <thead>
+                <tr>
+                    <th>Skills</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Learning</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Learning</td>
+                </tr>
+            </tbody>
+        </table>
+     </section>
+
+     <!-- Contact form -->
+      <section id="Contact">
+        <h2>Contact me</h2>
+        <form action="login.in" method="post">
+            <label for="name">
+                Name:
+                <input type="text"  name="name" id="name" placeholder="Enter your name" required>
+            </label>
+            <br><br>
+            <label for="email">
+                Email:
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            </label>
+            <br><br>
+            <label for="message">Message:
+                <textarea name="message" id="message" rows="6" cols="15" placeholder="Enter your message" required></textarea>
+            </label>
+            <br><br>
+            <button type="submit">Send message</button>
+        </form>
+      </section>
+    </main>
+
+    <br><br>
+
+<!-- footer section -->
+    <footer>
+        &copy; 2026 Priyanshi. All rights reserved.
+        <br>
+        email: soroutpriyashi@gmail.com
+    </footer>
+</body>
+</html>
