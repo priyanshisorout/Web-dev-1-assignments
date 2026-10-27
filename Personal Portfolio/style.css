@@ -1,0 +1,155 @@
+body {
+    background-color: #f2f6fc;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/* Header section */
+header {
+    background-color: #0d47a1;
+    color: white;
+    padding: 20px;
+}
+
+
+/* Navigation bar */
+nav {
+    background-color: #1565c0;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+/* Remove bullets from the navigation list */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Display links in one row */
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+/* Change navigation link color */
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Main content sections */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 3px dotted #cccccc;
+}
+
+#about ul{
+    list-style-type: none;
+}
+h2, h3 {
+    color: #0d47a1;
+}
+
+
+/* Profile image */
+#about img {
+    width: 190px;
+    height: 180px;
+    border-radius: 50%;
+
+}
+
+#projects ul{
+    list-style-type: none;
+}
+
+/* Project boxes */
+.project-box {
+    background-color: #f4f7fb;
+    border: 1px solid #0d47a1;
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+}
+
+/* Project headings */
+.project-box h3 {
+    color: #0d47a1;
+}
+
+
+/* Skills table */
+.skills-table {
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #0d47a1;
+}
+
+/* Table cells */
+.skills-table th,
+.skills-table td {
+    border: 1px solid #0d47a1;
+    padding: 10px;
+}
+
+/* Table heading row */
+.skills-table th {
+    background-color: #0d47a1;
+    color: white;
+}
+
+
+/* Contact form */
+.contact-form {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Each row of the form */
+.form-row {
+    display: flex;
+    align-items: center;
+    border: 2px solid #9bbce8;
+    padding: 5px;
+}
+
+/* Space between form rows */
+.form-row {
+    margin-bottom: 5px;
+}
+
+/* Labels */
+.form-row label {
+    width: 100%;
+    padding: 5px;
+}
+
+/* Input fields and message box */
+.form-row input,
+.form-row textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+.contact-form button {
+    display: block;
+    margin: 5px auto;
+    background-color: #0d47a1;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+}
+
+

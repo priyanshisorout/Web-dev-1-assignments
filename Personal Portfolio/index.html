@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Section : Web Development Lab2 | Project: Personal Portfolio with CSS| Page : Home -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2| Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    
+    <!-- Hero-section -->
+    <header>
+        <h1>Priyanshi</h1>
+        <p>First Year Student| Aspiring developer</p>
+        <p>Hello, I am a web development student. This is my Personal Portfolio Website</p>
+    </header>
+
+    <!-- navingation links -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- main content -->
+    <main>
+
+        <!-- About me section -->
+    <section id="about">
+        <h2> About Me</h2>
+        <img src="images/profile.png" alt="My profile picture">
+        <p>I am a first-year student currently learning programming and web development.I have been working with Python and learning HTML and CSS as part of my development journey.</p>
+        <p>I am currently working on improving my programming fundamnetals and developing skills</p>
+     <!-- Education -->
+    <h3>Education</h3>
+    <ul>
+        <li>Class 10th: Shree Tyagi Modren Public School</li>
+        <li>Class 12th: KCM World School</li>
+    </ul>
+     </section>
+
+    <!-- Projects section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li>
+                <div class="project-box">
+                    <h3>Portfolio website</h3>
+                    <p>A personal one page website to showcase your bio, skills and contact details</p>
+                </div>
+            </li>
+
+            <li>
+                <div class="project-box">
+                    <h3>College Timetable</h3>
+                    <p>A college timetable webpage created using HTML tables and CSS styling to organise classes.</p>
+                </div>
+            </li>
+            <li>
+                <div class="project-box">
+                <h3>Recipe Website</h3>
+                <p>A simple recipe creative webpage created using HTML and CSS, showcasing images, ingredients and origin story.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Skills section -->
+     <section id="skills">
+        <h2>Technical Skills</h2>
+        <table class="skills-table" border="4" cellspacing="5" cell padding="5">
+            <caption>Skill and proficinecy levels</caption>
+            <thead>
+                <tr>
+                    <th>Skills</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Learning</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Learning</td>
+                </tr>
+            </tbody>
+        </table>
+     </section>
+
+     <!-- Contact form -->
+      <section id="contact">
+        <h2>Contact me</h2>
+        <form class="contact-form" action="login.in" method="post">
+             <div class="form-row">
+            <label for="name">
+                Name:
+                <input type="text"  name="name" id="name" placeholder="Enter your name" required>
+            </label>
+            </div>
+            <br><br>
+            <div class="form-row">
+            <label for="email">
+                Email:
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            </label>
+            </div>
+            <br><br>
+            <div class="form-row">
+            <label for="message">Message:
+                <textarea name="message" id="message" placeholder="Enter your message" required></textarea>
+            </label>
+            </div>
+            <br><br>
+            <button type="submit">Send message</button>
+        </form>
+      </section>
+    </main>
+
+    <br><br>
+
+<!-- footer section -->
+    <footer>
+        &copy; 2026 Priyanshi. All rights reserved.
+        <br>
+        email: soroutpriyashi@gmail.com
+    </footer>
+</body>
+</html>
